@@ -1,0 +1,82 @@
+header{
+  display: flex;
+  width: 100%;
+  height: 179px;
+  background: #f9f9f9;
+  flex-direction: column;
+}
+.top{
+  display: inline-flex;
+  height: 140px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.logoBantotal{
+  width: 10%;
+  height: 24px;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 133px;
+
+}
+.singInfo{
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 5px;
+  /* padding-right: 35px */
+  /* align-content: center */
+}
+.imgProfile{
+  width: 38px;
+  height: 37px;
+  border-radius: 50%
+}
+.profileInfo{
+  margin-left: 10px;
+  margin-top: 3px
+}
+.profileInfo > p {
+  padding: 0px;
+  margin: 0px 0px -6px;
+  /* margin: 0px; */
+  /* margin-bottom: -7 px; */
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+.profileInfo > span {
+  padding: 0px;
+  margin: 0px;
+  color:rgba(52, 52, 52, 0.6);
+  opacity: 0.6;
+  font-size: 11px;
+}
+
+.signOut{
+  margin-top: 8px;
+  padding-right: 40px;
+  padding-left: 35px ;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.navigation{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 39px;
+  margin-bottom: 0px;
+  margin-left: 108px;
+}
+.navigation > div {
+  height: 12px;
+  padding: 0px 15px 0px 20px;
+}
+.navigation > div > a {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  opacity: 0.7;
+}

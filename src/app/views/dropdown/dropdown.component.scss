@@ -1,0 +1,228 @@
+.dropdown{
+  display: inline-flex;
+  flex-direction: column;
+  height: auto;
+  border: 1px;
+  border-bottom-style: solid;
+  border-color: grey;    
+}
+.input-container{
+  display: inline-flex;
+  justify-content: space-between;
+  p{
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    height: auto;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+}
+.input{
+  display: inline-flex;
+  margin: 0px;
+  padding: 0px;
+  input{
+    border:none;
+    margin:0px;
+    height: 100%;
+    width: auto;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  img{
+    width: 16px;
+    height: auto;
+    margin: 0px;
+    padding: 10px 10px 10px 0px;
+  }
+}
+.resumen{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 80px;
+}
+.cuenta{
+  color:#343434;
+  font-size: 18px;
+  opacity: 0.7;
+  font-weight: bold;
+}
+.saldo{
+  font-size: 18px;
+  font-weight: bolder;
+  img{
+      width: 20px;
+      margin-bottom: -5px;
+      margin-left: 10px;
+    }
+}
+.titles{
+  display: inline-flex;
+  height: 28px;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+    .nombre{
+      margin: 0px;
+      padding: 10px 0px 10px 20px;
+      height: auto;
+      width: 94%;
+      font-size: 12px;
+      padding-left: 20px;
+      text-align: left;
+      font-weight: bolder;
+      opacity: 0.7;
+      background-color: #f8f7f8;
+
+    }
+    .saldo{
+      height: auto;
+      padding: 10px 15px 10px 0px;
+      text-align: right;
+      font-size: 12px;
+      font-weight: bolder;
+      opacity: 0.7;
+      margin-right: 10px;
+      background-color: #f8f7f8;
+    }
+}
+.orden{
+  width: auto;
+  height: auto;
+  padding: 10px 0px 10px 20px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.detail{
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  background-color: #f8f7f8;
+  margin-bottom: 3px;
+  p{ 
+    height: auto;
+    opacity: 0.5;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+  }
+  span{
+    height: auto;
+    padding: 0px;
+    padding-right: 25px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bolder;
+    opacity: 0.6;
+    padding: 8px 20px 8px 0px;
+  }
+}
+// .cotizaciones{
+//   .dropdown-cotizaciones{
+//     display: inline-flex;
+//     justify-content: space-between;
+//     p{
+//       height: auto;
+//       color: #343434;
+//       font-size: 18px;
+//       opacity: 0.6;
+//       font-weight:900;
+//       padding: 8px 0px 8px 0px;
+//     }
+//     img{
+//       height: 18px;
+//       padding: 8px 0px 8px 0px;
+//     }
+//   } 
+// }
+// .titulo-cotizacion{
+//   margin-bottom: 4px;
+//   p{
+//     text-align: center;
+//     text-transform: uppercase;
+//     background: #f8f7f8;
+//     padding: 10px 0px 10px 0px;
+//     font-size: 12px;
+//     font-weight: 700;
+//     opacity: 0.7;
+//   }
+// }
+// .moneda{
+//   width: 32.33333%;
+//   height: auto;
+//   background: #f8f7f8;
+//   text-align: center;
+//   text-transform: uppercase;
+//   margin-right: 0.66666%;
+//   font-size: 12px;
+//   font-weight: 700;
+//   opacity: 0.7;
+//   padding-top: 10px; 
+//   padding-bottom: 10px;
+// }
+// .compra{
+//   width: 32.33333%;
+//   height: auto;
+//   background: #f8f7f8;
+//   text-align: center;
+//   text-transform: uppercase;
+//   margin-right: 0.66666%;
+//   margin-left: 0.66666%;
+//   font-size: 12px;
+//   font-weight: 700;
+//   opacity: 0.7;
+//   padding-top: 10px; 
+//   padding-bottom: 10px;
+// }
+// .venta{
+//   width: 32.33333%;
+//   height: auto;
+//   background: #f8f7f8;
+//   text-align: center;
+//   text-transform: uppercase;
+//   margin-left: 0.66666%;
+//   font-size: 12px;
+//   font-weight: 700;
+//   opacity: 0.7;
+//   padding-top: 10px; 
+//   padding-bottom: 10px; 
+// }
+// .tabla-usd{
+//   div{
+//     p{
+//       height: auto;
+//       padding-top: 12px;
+//       padding-bottom: 9px;
+//       text-align: center;
+//       text-transform: uppercase;
+//       font-size: 18px;
+//       font-weight: 500;
+//       opacity: 0.7;
+//     }
+//   }
+// }
+// .tabla-eur{
+//   div{
+//     p{
+//       height: auto;
+//       padding-bottom: 12px;
+//       padding-top: 9px;
+//       text-align: center;
+//       text-transform: uppercase;
+//       font-size: 18px;
+//       font-weight: 500;
+//       opacity: 0.7;
+//     }
+//   }
+// }

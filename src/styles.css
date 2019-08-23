@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin: 0px;
+}
+
+.col-12 {
+max-width: 100%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-9 {
+max-width: 75%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-8 {
+max-width: 66.666666666%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-6 {
+max-width: 50%;
+position: relative;
+width: 100%;
+box-sizing: border-box;
+min-height: 1px;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-5 {
+max-width: 41.66666667%;
+position: relative;
+width: 100%;
+box-sizing: border-box;
+min-height: 1px;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-4 {
+max-width: 33.33333333333%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-3 {
+max-width: 25%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-2c5 {
+max-width: 20.83333333%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+ 
+.col-2 {
+max-width: 16.66666666666666%;
+position: relative;
+width: 100%;
+min-height: 1px;
+box-sizing: border-box;
+padding-left: 0px;
+padding-right: 0px;
+}
+.col-1 {
+  max-width: 8.33333333333333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
